@@ -21,10 +21,10 @@ const NavBar = () => {
             <li>
                 <a href="#" className='hover:text-orange-500'>New</a>
             </li>
-            <li className='relative'>
+            <li className='relative group'>
               <a href="#" className='hover:text-orange-500'>Shop</a>
 
-              <div className="absolute top-10 left-[-200px] px-8 py-4 bg-white border rounded-md drop-shadow-md flex flex-col gap-8 ">
+              <div className="absolute top-6 left-[-200px] px-8 py-4 bg-white border rounded-md drop-shadow-md flex flex-col gap-8 opacity-0 group-hover:opacity-100 invisible group-hover:visible">
                   <div className="flex gap-8">
                     <div className='w-40'>
                       <h4 className='text-purple-500'> Men's Fashion </h4>
@@ -124,10 +124,10 @@ const NavBar = () => {
                   </div>
               </div>
             </li>
-            <li className="relative">
+            <li className="relative group">
                 <a href="#" className='hover:text-orange-500'>Blog</a>
 
-                <div className="w-60 absolute top-10 px-8 py-4 bg-white border rounded-md drop-shadow-md hidden">
+                <div className="w-60 absolute top-6 px-8 py-4 bg-white border rounded-md drop-shadow-md opacity-0 group-hover:opacity-100 invisible group-hover:visible">
                     <ul>
                       <li className='mb-4'>
                           <a href="#" className='hover:text-orange-400'>Standard Layout</a>
@@ -142,10 +142,10 @@ const NavBar = () => {
 
                 </div>
             </li>
-            <li className="relative">
+            <li className="relative group">
                 <a href="#" className='hover:text-orange-500'>Pages</a>
 
-                <div className="w-40 absolute top-10 px-8 py-4 bg-white border rounded-md drop-shadow-md hidden">
+                <div className="w-40 absolute top-6 px-8 py-4 bg-white border rounded-md drop-shadow-md opacity-0 group-hover:opacity-100 invisible group-hover:visible">
                     <ul>
                       <li className='mb-4'>
                           <a href="#" className='hover:text-orange-400'>Login</a>
